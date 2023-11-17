@@ -1,0 +1,39 @@
+/* BottomNavbar.css */
+.bottom-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0F1F5;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-item {
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    text-decoration: none; /* Added for better UX */
+    color: #3F3F3F;
+  }
+  
+  .nav-item:hover {
+    background-color: #D4D4D4;
+    border-radius: 0.5rem;
+   /* padding: 20px;*/
+  }
+  
+  .nav-item svg {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  

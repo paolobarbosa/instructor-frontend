@@ -1,0 +1,26 @@
+.audio-page {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .audio-card {
+  border: 1px sol id #ccc;
+  padding: 50px;
+  margin: 10px;
+  text-align: center; /* Center the text */
+  border-radius: 10px; /* Adjust the border-radius as needed */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  }
+  /* audioCard.css */
+.audio-card {
+  border-radius: 10px; /* Adjust the border-radius as needed */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+
+  }
+
+

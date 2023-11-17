@@ -1,0 +1,248 @@
+
+.Approval-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.Approval-card-body {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Approval-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+
+.Approval-column.selected {
+  background-color: #3498db;
+  color: white;
+}
+
+
+
+
+.Approval-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.Approval-card-body {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Approval-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Approval-column {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+
+}
+
+.Approval-column.selected {
+  background-color: #3498db;
+  color: white;
+}
+
+
+.Approval-row .Approval-column,
+.Approval-row {
+  background-color: transparent;
+}
+.Total-row {
+  border: none;
+}
+
+/* Add border to .Approval-row */
+.Approval-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  align-items: center;
+  border-radius: 0.3125rem;
+  background: #FFF;
+  margin-bottom: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add an outset shadow */
+}
+
+
+.Approval-column,
+.Approval-status-button {
+  flex: 1; /* Equal width for both columns and buttons */
+}
+
+
+
+
+.Approval-column {
+  /* Your existing styles for Approval-column */
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected-green {
+  background-color: #4caf50; /* Green color */
+  color: #fff; /* White text */
+}
+
+.selected-red {
+  background-color: #f44336; /* Red color */
+  color: #fff; /* White text */
+}
+
+.Approval-card-body {
+  /* Your existing styles for Approval-card-body */
+  margin-bottom: 20px;
+}
+
+.Approval-column {
+  /* Your existing styles for Approval-column */
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+.Approval-column.selected-green {
+  background-color: #4caf50; /* Green color */
+  color: #fff; /* White text */
+}
+
+.Approval-column.selected-red {
+  background-color: #f44336; /* Red color */
+  color: #fff; /* White text */
+}
+
+.Approval-card-body {
+  /* Your existing styles for Approval-card-body */
+  margin-bottom: 20px;
+}
+
+
+
+.Approval-status-button {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  transition: background-color 0.3s;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.3125rem;
+  
+}
+.Column-space {
+  margin-right: 5x; /* Adjust the value to control the space between columns */
+}
+
+.status-pending {
+  background-color: #FFF5D0;
+  color: #AB8200;
+}
+
+.status-duplicate {
+  color: #B05D00;
+  background-color: #FFECD0;;
+}
+
+.status-approved {
+  background-color: #D7FFCF;
+  color: #1C8312;
+
+}
+
+.status-deleted {
+  background-color: #ffd0d6;
+  color: #ab0003;
+}
+
+.status-mismatch
+{
+  background-color: #FFD1DB;
+  color: #B30036;
+}
+.status-deleted, .status-approved, .status-duplicate, .status-pending, .status-mismatch
+{
+  text-align: center;
+  font-family: Roboto;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.0125rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 10px 20px; /* Adjusted padding */
+
+  
+}
+
+.status-deleted:hover 
+
+{
+  background-color: #ab0003b0;  
+  color: white;
+}
+
+.status-approved:hover 
+
+{
+  background-color: #1b8312ad;
+  color: white
+}
+
+.status-duplicate:hover
+
+{
+  background-color:  #b05e00d1;
+  color: white;
+}
+
+.status-pending:hover 
+
+{
+  background-color: #ab8300d2;
+  color:white;
+}
+
+.status-mismatch:hover 
+
+{
+  background-color: #b30036c6;
+  color:white;
+}
+
+.approval-page-container {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
